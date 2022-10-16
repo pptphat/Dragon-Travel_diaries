@@ -1,0 +1,201 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Trebuchet MS';
+}
+
+/* Class chung */
+.inline{
+    display: inline;
+}
+.flex{
+    display: flex;
+}
+.margin8{
+    margin: 8px;
+}
+.padding8{
+    padding: 8px;
+}
+
+/* Body */
+body{
+    background-color: rgb(228, 142, 31);
+    margin: 8px;
+}
+#main_wrapper{
+    width: 900px;
+    margin: auto;
+}
+/* Title and logo */
+#main_title{
+
+}
+
+#dragon-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50% ;
+}
+
+#main_title h1{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#main_title h2{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Navigation */
+#nav{
+    padding-top: 48px;
+    display: flex;
+    border-bottom: solid #ccc 2px;
+}
+#nav ul{
+    text-align: right;
+    width: 100%;
+}
+#nav li{
+    display: inline;
+    font-weight: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 18px;
+    padding: 4px;
+}
+#nav li:hover{
+    color: brown;
+    border-bottom: 3px brown solid;
+}
+/* Banner image  */
+#banner_image{
+    position: relative;
+    margin: 15px 0 25px;
+    background: url('/assets/images/dragon-bridge.png') top center / cover no-repeat;
+    height: 200px;
+    width: 900px;
+}
+
+#banner_description{
+    position: absolute;
+    color: white;
+    top: px;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    padding: 15px 4px;
+    bottom: 0;
+    font-size: 14px;
+}
+
+.see_artical_button{
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: red;
+    float: right;
+    padding: 4px;
+    text-decoration: none;
+}
+
+/* Section */
+section{
+    display: flex;
+    border-bottom: 2px #ccc solid;
+}
+/* Main content */
+article{
+    width: 75%;
+    
+}
+article h1{
+    text-transform: uppercase;
+    padding: 12px;
+}
+article p{
+    text-align: justify;
+    padding: 8px;
+    font-size: 12px;
+}
+/* Addition information */
+aside{
+    width: 30%;
+}
+aside > div{
+    background-color: rgb(88, 85, 85);
+    color: white;
+    border-radius: 10px;
+    padding: 0 5px; 
+}
+aside h1{
+    padding: 16px 8px;
+    text-transform: uppercase;
+}
+aside img{
+    height: 30%;
+    width: 60%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px #000 solid;
+}
+aside p{
+    text-align: justify;
+}
+.icon-contact{
+   color: #ccc;
+   font-size: 34px;
+}
+/* Footer of page */
+footer{
+    margin-top: 25px;
+}
+footer > div > h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+footer > div > p{
+    font-size: 14px;
+}
+/* tweet */
+.tweet{
+    width: 25%;
+}
+.tweet p{
+    margin: 14px 0;
+}
+/* pictures */
+.pictures{
+    width: 40%;
+}
+/* friends */
+.friends{
+    width: 30%;
+}
+.friends ul{
+    padding: 0 15px;
+}
+.friends li{
+    border-bottom: none;
+    font-size: 14px;
+}
+.friends li a{
+    color: brown;
+    text-decoration: none;
+}
+.friends li::marker{
+    content: '> ';
+    font-size: 1.2em;
+    color: brown;
+}
